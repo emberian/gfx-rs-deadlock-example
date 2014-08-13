@@ -51,14 +51,14 @@ struct GfxRsContext {
     device: device::Device<render::resource::handle::Handle,device::gl::GlBackEnd,glfw_platform::Platform<glfw::RenderContext>>,
 }
 
-/*
+
 #[unsafe_destructor]
 impl Drop for GfxRsContext {
     fn drop(&mut self) {
         println!("Dropping context!");
     }
 }
-*/
+
 
 impl GfxRsContext {
     fn init() -> GfxRsContext {
