@@ -1,0 +1,99 @@
+[root]
+name = "tri"
+version = "1.0.0"
+dependencies = [
+ "device 0.1.0 (git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed)",
+ "gfx 0.1.0 (git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed)",
+ "gfx_macros 0.1.0 (git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed)",
+ "glfw 0.0.1 (git+http://github.com/bjz/glfw-rs#df29ebf1316114f4ffa5c73c99781bdbbbbc7ab6)",
+ "glfw_platform 0.1.0 (git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed)",
+ "render 0.1.0 (git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed)",
+]
+
+[[package]]
+name = "device"
+version = "0.1.0"
+source = "git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed"
+dependencies = [
+ "gl 0.0.1 (git+https://github.com/bjz/gl-rs.git#1e5015c213472db00b98145d4dff9d2be9ed6502)",
+]
+
+[[package]]
+name = "gfx"
+version = "0.1.0"
+source = "git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed"
+dependencies = [
+ "device 0.1.0 (git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed)",
+ "gfx_macros 0.1.0 (git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed)",
+ "render 0.1.0 (git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed)",
+]
+
+[[package]]
+name = "gfx_macros"
+version = "0.1.0"
+source = "git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed"
+
+[[package]]
+name = "gl"
+version = "0.0.1"
+source = "git+https://github.com/bjz/gl-rs.git#1e5015c213472db00b98145d4dff9d2be9ed6502"
+dependencies = [
+ "gl_generator 0.0.1 (git+https://github.com/bjz/gl-rs.git#1e5015c213472db00b98145d4dff9d2be9ed6502)",
+]
+
+[[package]]
+name = "gl_generator"
+version = "0.0.1"
+source = "git+https://github.com/bjz/gl-rs.git#1e5015c213472db00b98145d4dff9d2be9ed6502"
+dependencies = [
+ "khronos_api 0.0.1 (git+https://github.com/bjz/gl-rs.git#1e5015c213472db00b98145d4dff9d2be9ed6502)",
+ "rust-xml 0.1.0 (git+https://github.com/netvl/rust-xml#74d774629eee9f2eef41bbdb44ffc02535085375)",
+]
+
+[[package]]
+name = "glfw"
+version = "0.0.1"
+source = "git+http://github.com/bjz/glfw-rs#df29ebf1316114f4ffa5c73c99781bdbbbbc7ab6"
+dependencies = [
+ "link_glfw 0.1.0 (git+http://github.com/bjz/glfw-rs#df29ebf1316114f4ffa5c73c99781bdbbbbc7ab6)",
+ "semver 0.0.1 (git+https://github.com/rust-lang/semver#c78b40d7fdf8acd99b503e6ce394fbcf9eb8982f)",
+]
+
+[[package]]
+name = "glfw_platform"
+version = "0.1.0"
+source = "git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed"
+dependencies = [
+ "device 0.1.0 (git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed)",
+ "gfx 0.1.0 (git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed)",
+ "glfw 0.0.1 (git+http://github.com/bjz/glfw-rs#df29ebf1316114f4ffa5c73c99781bdbbbbc7ab6)",
+]
+
+[[package]]
+name = "khronos_api"
+version = "0.0.1"
+source = "git+https://github.com/bjz/gl-rs.git#1e5015c213472db00b98145d4dff9d2be9ed6502"
+
+[[package]]
+name = "link_glfw"
+version = "0.1.0"
+source = "git+http://github.com/bjz/glfw-rs#df29ebf1316114f4ffa5c73c99781bdbbbbc7ab6"
+
+[[package]]
+name = "render"
+version = "0.1.0"
+source = "git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed"
+dependencies = [
+ "device 0.1.0 (git+http://github.com/gfx-rs/gfx-rs#45f1d0cefb6f58be69d4ca2966f0046e82d790ed)",
+]
+
+[[package]]
+name = "rust-xml"
+version = "0.1.0"
+source = "git+https://github.com/netvl/rust-xml#74d774629eee9f2eef41bbdb44ffc02535085375"
+
+[[package]]
+name = "semver"
+version = "0.0.1"
+source = "git+https://github.com/rust-lang/semver#c78b40d7fdf8acd99b503e6ce394fbcf9eb8982f"
+

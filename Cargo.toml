@@ -1,0 +1,18 @@
+[project]
+name = "tri"
+version = "1.0.0"
+authors = []
+
+[dependencies.gfx]
+git = "http://github.com/gfx-rs/gfx-rs"
+[dependencies.device]
+git = "http://github.com/gfx-rs/gfx-rs"
+[dependencies.glfw_platform]
+git = "http://github.com/gfx-rs/gfx-rs"
+[dependencies.render]
+git = "http://github.com/gfx-rs/gfx-rs"
+[dependencies.gfx_macros]
+git = "http://github.com/gfx-rs/gfx-rs"
+
+[dependencies.glfw]
+git = "http://github.com/bjz/glfw-rs"
